@@ -1,46 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Học Làm Bài Tập Bảng Table</title>
 </head>
 <body>
-    <h1>Học Table</h1>
+    <a href="/">Home</a>
+    <a href="/contact.html">Contact</a>
+    <a href="/aboutme.html">About Me</a>
+    <h1>Học tạo Table</h1>
+    <h2>Những Thuộc Tính Cần Nắm</h2>
+    <p>
+        <pre>thuộc tính <strong>&lt;table&gt;:</strong> là tạo bảng</pre>
+        <pre>thuộc tính &lt;tr&gt;: table row thuộc tính đại diện cho một hàng</pre>
+        <pre>thuộc tính &lt;th&gt;: table header thuộc tính ô tiêu đề trong bảng</pre>
+        <pre>thuộc tính &lt;td&gt;: table data thuộc tính lưu trữ dữ liệu trong bảng</pre>
+        <pre>thuộc tính &lt;thead&gt;: phần đầu bảng</pre>
+        <pre>thuộc tính &lt;tbody&gt;: phần thân bảng</pre>
+        <pre>thuộc tính &lt;tfoot&gt;: phần cuối trang</pre>
+    </p>
+    <a href="https://www.w3schools.com/html/html_intro.asp" target="_self">Học Thêm Tại Đây</a>
+    <hr>
+    <h3>Tặng cho các bạn một bài thơ hay</h3>
+    <div>
+        <img src="/img/anh-dai-dien-hai-yodyvn1.jpg" alt="Thơ Hay" height="200"/>
+    </div>
+    <div><a href="/aboutme.html"><img src="/img/nutbam.png" width="200"/></a> </div>
+    <p>Thu đi để lại lá vàng<br>Anh đi để lại cho nàng thằng cu<br>Mùa thu nối tiếp mùa thu<br>Thằng cu nối tiếp thằng cu ra đời<br><strong>Hảo Thơ, Thơ Hay, Thơ Hay</strong></p>
+    <hr>
     <table>
         <thead>
             <tr>
-                <th>Tên Sản Phẩm</th>
-                <th>Mô Tả</th>
-                <th colspan="2">Kích Thước</th>
+                <th>Tên sản phẩm</th>
+                <th>Giá sản phẩm</th>
+                <th>Số lượng còn lại</th>
             </tr>
-        </thead> 
-           <tbody>
-                <tr>
-                    <td rowspan="2">Áo Phông</td>
-                    <td>100.000 vnđ</td>
-                    
-                    <td>Size X</td>
-                    <td>Size L</td>
-                </tr>
-                <tr>
-                    <td>Chai nước</td>
-                    <td>to</td>
-                    <td>nhỏ</td>
-                </tr>
+        </thead>
+        <tbody>
             <tr>
-                <td>Quần jean</td>
-                <td>200.000 vnđ</td>
-                <td>Size M</td>
-                <td>Size L</td>
+                <td>Áo thun nam</td>
+                <td>100.000 vnd</td>
+                <td>50</td>
             </tr>
-           </tbody>
+            <tr>
+                <td>Quần jean nam</td>
+                <td>200.000 vnd</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Giày thể thao</td>
+                <td>300.000 vnd</td>
+                <td>30</td>
+            </tr>
+        </tbody>
         <tfoot>
             <tr>
-                <td>Tổng Cộng</td>
-                <td>300.000 vnđ</td>
+                <td>Remark</td>
+                <td colspan="2">Chỉ thống kê sản phẩm trong kho</td>
             </tr>
         </tfoot>
     </table>
+    <a href="">Load Page</a>
+    <a href="#">Back To Top</a>
 </body>
 </html>
